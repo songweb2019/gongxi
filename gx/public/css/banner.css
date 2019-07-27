@@ -1,0 +1,64 @@
+#banner{
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  position:relative;
+  top:20%;
+  left:50%;
+  margin-left:-100px;
+  border:2px solid red;
+}
+#ul-imgs{
+  list-style:none;
+}
+#ul-imgs.transition{
+  transition:all .5s linear;
+}
+#ul-imgs>li{
+  width:200px;
+  float:left;
+}
+#ul-imgs img{
+  width:200px;
+  height:200px;
+}
+
+/* 轮播指示器 */
+/* #ul-idxs{
+  width:100px;
+  margin:0 auto;
+  list-style:none;
+  position:absolute;
+  bottom:10px;
+  left:70%;
+}
+#ul-idxs>li{
+  float:left;
+  width:10px; 
+  height:10px;
+  background-color:#fff;
+  border-radius:5px;
+  margin:0 5px;
+  cursor:pointer;
+}
+#ul-idxs>li.active{
+  background-color:red;
+} */
+
+/* 左右指示器 */
+/* #btn-left,#btn-right{
+  width:60px;
+  height:60px;
+  text-align: center;
+  font-size: 50px;
+  position:absolute;
+  top:50%;
+  margin-top:-30px;
+  cursor:pointer;
+}
+#btn-left{
+  left:0px;
+}
+#btn-right{
+  right:0px;
+} */
